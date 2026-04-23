@@ -1,0 +1,11 @@
+displayName,userPrincipalName,department,jobTitle,accountEnabled,lastSignInDateTime
+Alice Chen,alice.chen@contoso.com,Engineering,Senior Software Engineer,True,2026-04-20T14:32:00Z
+Bob Martinez,bob.martinez@contoso.com,Engineering,Staff Engineer,True,2026-04-21T09:10:00Z
+Carla Nguyen,carla.nguyen@contoso.com,Security,Security Analyst,True,2026-04-22T07:45:00Z
+David Okafor,david.okafor@contoso.com,Security,IAM Engineer,True,2026-04-19T18:03:00Z
+Eve Park,eve.park@contoso.com,Finance,Accountant,False,2025-11-02T11:20:00Z
+Frank Liu,frank.liu@contoso.com,Finance,Controller,True,2026-01-14T13:55:00Z
+Grace Tanaka,grace.tanaka@contoso.com,HR,People Partner,True,2026-04-15T10:00:00Z
+Hiro Shah,hiro.shah@contoso.com,HR,Recruiter,False,2025-09-30T16:42:00Z
+Imani Webb,imani.webb@contoso.com,Engineering,Software Engineer II,True,2026-04-21T22:11:00Z
+Jamal Reyes,jamal.reyes@contoso.com,Security,Detection Engineer,True,2026-04-18T08:27:00Z
