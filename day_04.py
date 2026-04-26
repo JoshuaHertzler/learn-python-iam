@@ -125,22 +125,27 @@ Rules of the road:
 # Your code below.
 import csv
 from datetime import datetime
+from collections import Counter
 
 with open("sample_users.csv") as f:
    reader = csv.DictReader(f)
    dept_counts = {}
    users_by_upn = {}
+   users_by_dept = {}
    for row in reader:
-        dept = row["department"]
-        dept_counts[dept] = dept_counts.get(dept, 0) + 1
-        users_by_upn[row["userPrincipalName"]] = row
-
-   for dept, count in dept_counts.items():
-        print(f"{dept:<15} {count}")
+      dept = row["department"]
+      name = row["displayName"]
+      dept_counts[dept] = dept_counts.get(dept, 0) + 1
+      users_by_upn[row["userPrincipalName"]] = row
+      if dept not in users_by_dept:
+          users_by_dept[dept] = []
+      users_by_dept[dept].append(name)
 missing = users_by_upn.get("nobody@contoso.com")
 print(missing)
 alice = users_by_upn["alice.chen@contoso.com"]
 print(alice["displayName"], alice["department"], alice["jobTitle"])
+print(users_by_dept)
+
 
 for upn in users_by_upn:
     print(upn)
