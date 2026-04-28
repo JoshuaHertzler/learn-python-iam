@@ -196,6 +196,7 @@ Rules of the road:
 """
 import csv
 from datetime import datetime
+import sys
 
 # Your code below — start by pasting your Day 5 functions in.
 #Function that loads a CSV and defines a list of row dicts
@@ -275,7 +276,8 @@ def save_report(content, path):
 
 def main():
   users = load_users("sample_users.csv")
-  report = build_report(users, threshold_days=90)
+  threshold = int(sys.argv[1]) if len(sys.argv) > 1 else 90
+  report = build_report(users, threshold_days=threshold)
   save_report(report, "Stale_Users.csv")
   print(report)
   print(f"\nReport saved to stale_report.txt")
