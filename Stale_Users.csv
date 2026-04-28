@@ -1,0 +1,15 @@
+============================================================
+Stale Account Detector — Report
+Generated: 2026-04-27T19:21:40
+Users scanned: 10
+Stale threshold: 90 days
+============================================================
+
+DISABLED ACCOUNTS:
+  Eve Park                  eve.park@contoso.com
+  Hiro Shah                 hiro.shah@contoso.com
+
+STALE ACCOUNTS (>90 days):
+  Eve Park                  176 days  (eve.park@contoso.com)
+  Frank Liu                 103 days  (frank.liu@contoso.com)
+  Hiro Shah                 209 days  (hiro.shah@contoso.com)
