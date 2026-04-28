@@ -194,9 +194,8 @@ Rules of the road:
   - If something feels redundant with Day 5, that's GOOD — repetition
     on milestone day is consolidating, not wasted work.
 """
-import csv
+import csv, sys
 from datetime import datetime
-import sys
 
 # Your code below — start by pasting your Day 5 functions in.
 #Function that loads a CSV and defines a list of row dicts
@@ -280,7 +279,7 @@ def main():
   report = build_report(users, threshold_days=threshold)
   save_report(report, "Stale_Users.csv")
   print(report)
-  print(f"\nReport saved to stale_report.txt")
+  print(f"\nReport saved to Stale_Users.csv")
 
 if __name__ == "__main__":
             main()
