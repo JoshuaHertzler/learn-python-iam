@@ -236,5 +236,22 @@ def safe_int(value, default=0):
 print(safe_int("not a number"))
 
 #8
+"""Output:  a single string with three lines:
+            "Total: 10"
+            "Enabled: 8 / Disabled: 2"
+            "Departments: 4"
+            """
 def summarize(users):
-    
+    enabled, disabled = split_by_status(users)
+    dept_counts = {}
+    for user in users:
+        dept = user["department"]
+        dept_counts[dept] = dept_counts.get(dept, 0) + 1
+    lines = [
+        f"Total: {len(users)}",
+        f"Enabled: {len(enabled)} / Disabled: {len(disabled)}",
+        f"Departments: {len(dept_counts)}",
+    ]
+    return "\n".join(lines)
+
+print(summarize(users))
