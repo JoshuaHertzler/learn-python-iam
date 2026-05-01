@@ -1,0 +1,26 @@
+[
+  {
+    "id": "8e3b0a1c-1a7e-4e5b-9c9c-3b8e4d2f1a05",
+    "displayName": "Eve Park",
+    "userPrincipalName": "eve.park@contoso.com",
+    "department": "Finance",
+    "jobTitle": "Accountant",
+    "accountEnabled": false,
+    "signInActivity": {
+      "lastSignInDateTime": "2025-11-02T11:20:00Z"
+    },
+    "assignedLicenses": []
+  },
+  {
+    "id": "8e3b0a1c-1a7e-4e5b-9c9c-3b8e4d2f1a08",
+    "displayName": "Hiro Shah",
+    "userPrincipalName": "hiro.shah@contoso.com",
+    "department": "HR",
+    "jobTitle": "Recruiter",
+    "accountEnabled": false,
+    "signInActivity": {
+      "lastSignInDateTime": "2025-09-30T16:42:00Z"
+    },
+    "assignedLicenses": []
+  }
+]

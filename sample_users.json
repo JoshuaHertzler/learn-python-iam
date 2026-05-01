@@ -1,0 +1,141 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users",
+  "value": [
+    {
+      "id": "8e3b0a1c-1a7e-4e5b-9c9c-3b8e4d2f1a01",
+      "displayName": "Alice Chen",
+      "userPrincipalName": "alice.chen@contoso.com",
+      "department": "Engineering",
+      "jobTitle": "Senior Software Engineer",
+      "accountEnabled": true,
+      "signInActivity": {
+        "lastSignInDateTime": "2026-04-20T14:32:00Z"
+      },
+      "assignedLicenses": [
+        {"skuId": "06ebc4ee-1bb5-47dd-8120-11324bc54e06"}
+      ]
+    },
+    {
+      "id": "8e3b0a1c-1a7e-4e5b-9c9c-3b8e4d2f1a02",
+      "displayName": "Bob Martinez",
+      "userPrincipalName": "bob.martinez@contoso.com",
+      "department": "Engineering",
+      "jobTitle": "Staff Engineer",
+      "accountEnabled": true,
+      "signInActivity": {
+        "lastSignInDateTime": "2026-04-21T09:10:00Z"
+      },
+      "assignedLicenses": [
+        {"skuId": "06ebc4ee-1bb5-47dd-8120-11324bc54e06"}
+      ]
+    },
+    {
+      "id": "8e3b0a1c-1a7e-4e5b-9c9c-3b8e4d2f1a03",
+      "displayName": "Carla Nguyen",
+      "userPrincipalName": "carla.nguyen@contoso.com",
+      "department": "Security",
+      "jobTitle": "Security Analyst",
+      "accountEnabled": true,
+      "signInActivity": {
+        "lastSignInDateTime": "2026-04-22T07:45:00Z"
+      },
+      "assignedLicenses": [
+        {"skuId": "06ebc4ee-1bb5-47dd-8120-11324bc54e06"}
+      ]
+    },
+    {
+      "id": "8e3b0a1c-1a7e-4e5b-9c9c-3b8e4d2f1a04",
+      "displayName": "David Okafor",
+      "userPrincipalName": "david.okafor@contoso.com",
+      "department": "Security",
+      "jobTitle": "IAM Engineer",
+      "accountEnabled": true,
+      "signInActivity": {
+        "lastSignInDateTime": "2026-04-19T18:03:00Z"
+      },
+      "assignedLicenses": [
+        {"skuId": "06ebc4ee-1bb5-47dd-8120-11324bc54e06"}
+      ]
+    },
+    {
+      "id": "8e3b0a1c-1a7e-4e5b-9c9c-3b8e4d2f1a05",
+      "displayName": "Eve Park",
+      "userPrincipalName": "eve.park@contoso.com",
+      "department": "Finance",
+      "jobTitle": "Accountant",
+      "accountEnabled": false,
+      "signInActivity": {
+        "lastSignInDateTime": "2025-11-02T11:20:00Z"
+      },
+      "assignedLicenses": []
+    },
+    {
+      "id": "8e3b0a1c-1a7e-4e5b-9c9c-3b8e4d2f1a06",
+      "displayName": "Frank Liu",
+      "userPrincipalName": "frank.liu@contoso.com",
+      "department": "Finance",
+      "jobTitle": "Controller",
+      "accountEnabled": true,
+      "signInActivity": {
+        "lastSignInDateTime": "2026-01-14T13:55:00Z"
+      },
+      "assignedLicenses": [
+        {"skuId": "06ebc4ee-1bb5-47dd-8120-11324bc54e06"}
+      ]
+    },
+    {
+      "id": "8e3b0a1c-1a7e-4e5b-9c9c-3b8e4d2f1a07",
+      "displayName": "Grace Tanaka",
+      "userPrincipalName": "grace.tanaka@contoso.com",
+      "department": "HR",
+      "jobTitle": "People Partner",
+      "accountEnabled": true,
+      "signInActivity": {
+        "lastSignInDateTime": "2026-04-15T10:00:00Z"
+      },
+      "assignedLicenses": [
+        {"skuId": "06ebc4ee-1bb5-47dd-8120-11324bc54e06"}
+      ]
+    },
+    {
+      "id": "8e3b0a1c-1a7e-4e5b-9c9c-3b8e4d2f1a08",
+      "displayName": "Hiro Shah",
+      "userPrincipalName": "hiro.shah@contoso.com",
+      "department": "HR",
+      "jobTitle": "Recruiter",
+      "accountEnabled": false,
+      "signInActivity": {
+        "lastSignInDateTime": "2025-09-30T16:42:00Z"
+      },
+      "assignedLicenses": []
+    },
+    {
+      "id": "8e3b0a1c-1a7e-4e5b-9c9c-3b8e4d2f1a09",
+      "displayName": "Imani Webb",
+      "userPrincipalName": "imani.webb@contoso.com",
+      "department": "Engineering",
+      "jobTitle": "Software Engineer II",
+      "accountEnabled": true,
+      "signInActivity": {
+        "lastSignInDateTime": "2026-04-21T22:11:00Z"
+      },
+      "assignedLicenses": [
+        {"skuId": "06ebc4ee-1bb5-47dd-8120-11324bc54e06"}
+      ]
+    },
+    {
+      "id": "8e3b0a1c-1a7e-4e5b-9c9c-3b8e4d2f1a10",
+      "displayName": "Jamal Reyes",
+      "userPrincipalName": "jamal.reyes@contoso.com",
+      "department": "Security",
+      "jobTitle": "Detection Engineer",
+      "accountEnabled": true,
+      "signInActivity": {
+        "lastSignInDateTime": "2026-04-18T08:27:00Z"
+      },
+      "assignedLicenses": [
+        {"skuId": "06ebc4ee-1bb5-47dd-8120-11324bc54e06"}
+      ]
+    }
+  ]
+}
