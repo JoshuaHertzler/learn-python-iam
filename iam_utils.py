@@ -2,13 +2,24 @@ import csv
 from datetime import datetime
 
 #Function that loads a CSV and defines a list of row dicts
+import csv
+import json
+
 def load_users(filename):
-    users = []
-    with open(filename) as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            users.append(row)
-    return users
+    if filename.endswith(".json"):
+        with open(filename) as f:
+            data = json.load(f)
+        # Graph API wraps users in a "value" array
+        return data["value"] if isinstance(data, dict) and "value" in data else data
+    elif filename.endswith(".csv"):
+        users = []
+        with open(filename) as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                users.append(row)
+        return users
+    else:
+        raise ValueError(f"Unsupported file extension: {filename}")
 
 #Takes in a dict of users and returns department counts
 def count_by_dept(users):

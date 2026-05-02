@@ -1,0 +1,13 @@
+{
+  "generated": "2026-05-01T19:47:47",
+  "threshold_days": 90,
+  "stale": [
+    "eve.park@contoso.com",
+    "frank.liu@contoso.com",
+    "hiro.shah@contoso.com"
+  ],
+  "disabled": [
+    "eve.park@contoso.com",
+    "hiro.shah@contoso.com"
+  ]
+}

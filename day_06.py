@@ -194,6 +194,8 @@ Rules of the road:
   - If something feels redundant with Day 5, that's GOOD — repetition
     on milestone day is consolidating, not wasted work.
 """
+
+# Day 6 milestone — superseded by stale_detector.py on Day 9.
 import csv, sys
 from datetime import datetime
 
